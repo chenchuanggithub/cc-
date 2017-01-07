@@ -1,0 +1,1015 @@
+/* chenchuang */
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+}
+
+.wrap {
+    width: 1305px;
+}
+
+#one {
+    height: 50px;
+    background-color: #333;
+    color: white;
+    width: 1060px;
+    line-height: 46px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-bottom: 2px solid #606060;
+    position: fixed;
+    top: 0;
+    z-index: 9999999999999;
+}
+
+#one .line {
+    border: 1px dashed red;
+    width: 155px;
+    display: block;
+}
+
+#one .box {
+    height: 50px;
+}
+
+#one .box ul.left .yy {
+    position: relative;
+}
+
+#one .box ul.left .div1 {
+    width: 50px;
+    height: 650px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#one .box ul.left .div1 .div2 {
+    font-size: 10px;
+    width: 150px;
+    display: none;
+    border: 1px solid #DCDDDD;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    z-index: 9999;
+}
+
+#one .box ul.left .div1 .div2 p {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 5px;
+}
+
+#one .box ul.left .div1 .div2 p:hover {
+    background-color: #666;
+    border: none;
+}
+
+#one .box ul.left .div1 .div2 p+p {
+    border-top: 1px dashed red;
+}
+
+#one .box ul.left .div1 a {
+    color: #000;
+    display: inline-block;
+}
+
+#one .box ul li:hover .jiantou {
+    transform: rotate(180deg);
+}
+
+#one .box ul li:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+#one .box ul li:hover .div1 {
+    background-color: transparent;
+    display: inline-block;
+}
+
+#one .box ul li:hover .div1 .div2 {
+    background-color: white;
+    display: inline-block;
+}
+
+#one .box ul {
+    display: inline-block;
+}
+
+#one .box ul li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+}
+
+#one .box ul li+li {
+    border-right: 1px solid #1F1F1F;
+    /* border-left: 1px solid #3F3F3F; */
+}
+
+#one .box ul.left {
+    float: left;
+}
+
+#one .box ul.right {
+    float: right;
+}
+
+#one .box ul.right .one {
+    background-color: #B80606;
+    border-bottom: 3px solid #8F3030;
+    position: relative;
+}
+
+#one .box ul.right .two {
+    position: relative;
+}
+
+#one .box ul.right li.two:hover .fu {
+    display: inline-block;
+}
+
+#one .box ul.right li.two:hover .yx {
+    display: inline-block;
+}
+
+#one .box ul.right .two .fu {
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    display: none;
+}
+
+#one .box ul.right .two .yx {
+    position: absolute;
+    line-height: 30px;
+    width: 180px;
+    height: 70px;
+    padding: 6px 15px;
+    top: 60px;
+    left: 0;
+    border: 1px solid #DCDDDD;
+    display: none;
+    background-color: white;
+}
+
+#one .box ul.right .two .yx a {
+    color: #000;
+    font-size: 12px;
+}
+
+#one .box ul.right .one .fu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100px;
+    display: none;
+    background-color: transparent;
+}
+
+#one .box ul.right .one:hover {
+    background-color: #8F3030 !important;
+}
+
+#one .box ul.right .one:hover .fu {
+    display: inline-block;
+}
+
+#one .box ul.right .one:hover form {
+    display: inline-block;
+}
+
+#one .box ul.right form {
+    width: 260px;
+    text-align: center;
+    color: #000;
+    border: 1px solid #DCDDDD;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    display: none;
+    background-color: white;
+}
+
+#one .box ul.right form input {
+    height: 30px;
+    padding-left: 5px;
+}
+
+#one .box ul.right form .chenkbox {
+    float: left;
+    height: 50px;
+}
+
+#one .box ul.right form p {
+    font-size: 13px;
+    height: 50px;
+    color: #000;
+    margin: 0 39px;
+}
+
+#one .box ul.right form p a {
+    font-size: 13px;
+    float: right;
+    color: #000;
+}
+
+#one .box ul.right form p span {
+    float: left;
+    margin-left: 5px;
+}
+
+#one .box ul.right .one,
+.two {
+    padding: 2px 10px;
+}
+
+#one .box ul.left li {
+    margin-right: 30px;
+}
+
+#one .box ul li a {
+    color: white;
+}
+
+#one .box ul.right .kk {
+    position: relative;
+}
+
+#one .box ul.right .kk .fu {
+    width: 70px;
+    height: 300px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#one .box ul.right .kk .ez {
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 60px;
+    left: 0;
+    width: 125px;
+    background-color: white;
+    border: 1px solid #DCDDDD;
+    line-height: 30px;
+    display: none;
+}
+
+#one .box ul.right .kk:hover .fu {
+    display: inline-block;
+}
+
+#one .box ul.right .kk:hover .ez {
+    display: inline-block;
+}
+
+#one .box ul.right .kk .ez a {
+    color: #000;
+    display: inline-block;
+    width: 130px;
+    font-size: 14px;
+    border-bottom: 1px dashed #DCDDDD;
+}
+
+#one .box ul.right .kk1 {
+    position: relative;
+}
+
+#one .box ul.right .kk1 .fu1 {
+    width: 30px;
+    height: 300px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#one .box ul.right .kk1 .ez1 {
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 60px;
+    right: 0;
+    width: 50px;
+    background-color: white;
+    line-height: 30px;
+    display: none;
+}
+
+#one .box ul.right .kk1:hover .fu1 {
+    display: inline-block;
+}
+
+#one .box ul.right .kk1:hover .ez1 {
+    display: inline-block;
+}
+
+#one .box ul.right .kk1 .ez1 img {}
+
+#one .box .jiantou {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid white;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transition: all 0.5s ease;
+}
+
+#one .box ul.right {
+    font-size: 0;
+}
+
+#one .box ul.right li {
+    padding: 0px 10px;
+}
+
+#one a.tupian {
+    margin: 0;
+    padding: 0;
+    margin-right: 3px;
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 22px;
+}
+
+#one ul.left .yy .div2 span {
+    margin: 0;
+    padding: 0;
+    margin-right: 3px;
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 35px;
+}
+
+#one ul.left span.a1 {
+    background-position: 0 -154px;
+}
+
+#one ul.left span.a2 {
+    background-position: 0 -365px;
+}
+
+#one ul.left span.a3 {
+    background-position: 0 -273px;
+}
+
+#one ul.left span.a4 {
+    background-position: 0 -245px;
+}
+
+#one ul.left span.a5 {
+    background-position: 0 -215px;
+}
+
+#one ul.left span.a6 {
+    background-position: 0 -185px;
+}
+
+#one ul.left span.a7 {
+    background-position: 0 -305px;
+}
+
+#one ul.left span.a8 {
+    background-position: 0 -335px;
+}
+
+#one ul.left span.a9 {
+    background-position: 0 -413px;
+}
+
+#one ul.left span.a10 {
+    background-position: 0 -442px;
+}
+
+#one ul.left span.a11 {
+    background-position: 0 -588px;
+}
+
+#one ul.left span.a12 {
+    background-position: 0 -629px;
+}
+
+#one a.kaola {
+    background-position: 0 -396px;
+    width: 60px;
+}
+
+#one a.email {
+    background-position: 0 -23px;
+}
+
+#one a.money {
+    background-position: 0 -46px;
+}
+
+#one a.shoping {
+    background-position: 0 -504px;
+}
+
+#one a.love {
+    background-position: 0 -92px;
+}
+
+#one a.down {
+    background-position: 0 -477px;
+}
+
+#one a.bobo {
+    background-position: 0 -114px;
+    width: 50px;
+}
+
+#one a.logo {
+    background-position: 0 -542px;
+}
+
+
+/* 第二部分*/
+
+#a {
+    margin-top: 100px;
+    height: 50px;
+    padding: 0 100px;
+    height: 400px;
+}
+
+#a .text1>ul>p strong {
+    color: #000;
+}
+
+#a .content .logo {
+    height: 50px;
+    border-bottom: 3px solid red;
+    margin: 0 50px;
+    margin-right: 55px;
+}
+
+#a .content .logo a {
+    background-image: url("../img/bg_sprites_v20.png");
+    position: 0 0;
+    float: left;
+    height: 38px;
+    width: 122px;
+}
+
+#a .content .logo span {
+    background-image: url("../img/45040.jpg");
+    display: inline-block;
+    width: 438px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-left: 440px;
+    margin-top: 9px;
+}
+
+#a .text1>ul>p {
+    float: left;
+    padding: 5px 5px;
+}
+
+#a .text1 {
+    height: 120px;
+    padding-left: 40px;
+}
+
+#a .text1>ul>p+p {
+    border-left: 1px dashed #666;
+}
+
+#a .text1>ul>p>a {
+    padding: 3px 5px;
+    font-size: 12px;
+    color: #000;
+}
+
+#a .jy {
+    height: 200px;
+    border: 1px solid #DCDDDD;
+    margin: 10px 50px;
+    position: relative;
+}
+
+#a .jy img {
+    position: absolute;
+    top: 65px;
+    left: 196px;
+    height: 59px;
+    transition: all 1s ease;
+}
+
+#a .jy img:hover {
+    transform: rotateX(366deg);
+}
+
+#a .jy >ul {
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+
+#a .jy>ul li {
+    width: 17px;
+    padding: 10px 0;
+    margin: 5px 0;
+    background-color: #E6EAED;
+}
+
+#a .gk p {
+    padding: 1px 1px;
+    width: 140px;
+}
+
+#a a {
+    color: #376A77;
+}
+
+#a .jy > .gk {
+    font-size: 13px;
+    line-height: 27px;
+    display: inline-block;
+    padding: 9px 8px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    display: none;
+}
+
+#a .jy .gk.active {
+    display: inline-block;
+}
+
+
+/* 右侧栏 */
+
+#a .jy2 {
+    height: 200px;
+    margin-left: 50px;
+    position: relative;
+}
+
+#a .jy2 >ul {
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+#a .jy2>ul li {
+    width: 17px;
+    padding: 10px 0;
+    margin: 5px 0;
+    background-color: #E6EAED;
+}
+
+#a .gk p {
+    padding: 1px 1px;
+    width: 140px;
+}
+
+#a a {
+    color: #376A77;
+}
+
+#a .jy2 .gk {
+    width: 125px;
+    font-size: 13px;
+    line-height: 27px;
+    display: inline-block;
+    padding: 9px 0px;
+    position: absolute;
+    text-align: right;
+    right: 17px;
+    top: 0;
+    display: none;
+}
+
+#a .jy2 .gk p {
+    width: 100px;
+}
+
+#a .jy2 .gk .active {
+    display: inline-block;
+}
+
+
+/* 中部 */
+
+#a .cw {
+    display: inline-block;
+    margin: 9px 10px;
+    position: absolute;
+    top: 0;
+    left: 180px;
+}
+
+#a .cw ul {
+    font-size: 13px;
+    list-style: none;
+    float: left;
+    padding: 0 5px;
+}
+
+#a .cw ul li {
+    padding: 7px 0;
+}
+
+
+/* 第三部分 */
+
+#b {
+    height: 850px;
+    /* border: 1px solid #ccc; */
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 147px;
+}
+
+#b .cnn a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#b .cnn >div {
+    width: 324px;
+    height: 850px;
+    /* border: 1px solid #666; */
+    float: left;
+    margin-right: 10px;
+    padding: 0 0;
+}
+
+#b .cnn .one .box {
+    position: relative;
+}
+
+#b .cnn .one .box .box1 {
+    position: relative;
+    width: 311px;
+    height: 221px;
+    border: 1px solid yellow;
+    overflow: hidden;
+}
+
+#b .cnn .one .box .box1 span {
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    height: 35px;
+    top: 98px;
+    z-index: 99999;
+    /* background-color: rgba(0,0,0,0.1); */
+    opacity: 0.6;
+    background-image: url("../img/icon_v9.png");
+}
+
+#b .cnn .one .box .box1 span:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#b .cnn .one .box .box1 .s1 {
+    background-position: 6px 0;
+    left: 0;
+}
+
+#b .cnn .one .box .box1 .s2 {
+    background-position: -7px -44px;
+    right: 2px;
+}
+
+#b .cnn .one .box .box1 .ul1 {
+    width: 2170px;
+    height: 221px;
+    border: 1px solid red;
+    text-align: left;
+    font-size: 0;
+    position: absolute;
+}
+
+#b .cnn .one .box .box1 .ul1 li {
+    display: inline-block;
+}
+
+#b .cnn .one .box .box1 .ul1 li img {
+    width: 310px;
+}
+
+#b .cnn .one .box .xiao {
+    display: inline-block;
+    width: 310px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 0;
+}
+
+#b .cnn .one .box .xiao div {
+    display: inline-block;
+    width: 25px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
+}
+
+#b .cnn .one .box .xiao div p {
+    display: inline-block;
+    height: 5px;
+    background-color: #206F96;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#b .cnn .one .box .xiao div:first-child p {
+    width: 25px;
+}
+
+#hy {
+    position: relative;
+}
+
+#hy ul {
+    list-style: none;
+    height: 35px;
+    margin-top: 50px;
+    border-top: 2px solid red;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#hy ul li {
+    float: left;
+    height: 30px;
+    padding: 1px 32px;
+    border-bottom: 1px solid #ccc;
+    background-color: #F7F7F7;
+}
+
+#hy ul li+li {
+    border-left: 1px solid #ccc;
+}
+
+#hy ul .active {
+    border-bottom: none;
+    background-color: transparent;
+    display: inline-block;
+}
+
+#hy .one11+.one11 {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#hy .one11 p {
+    padding-top: 16px;
+}
+
+#hy ul .active {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+#hy .pp {
+    background-image: url("../img/icon_v9.png");
+    background-position: 30px -114px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 38px;
+}
+
+#hy .aa {
+    background-image: url("../img/icon_v9.png");
+    background-position: -45px -90px;
+    background-repeat: no-repeat;
+    padding-left: 13px;
+}
+
+#hy a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+/* 中间的中部 */
+
+#b .two {
+    text-align: left;
+}
+
+#b .two .center .topp {
+    height: 29px;
+    font-size: 0;
+    position: relative;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-top: 2px solid blue;
+}
+
+#b .two .center .topp> div {
+    display: inline-block;
+    padding: 5px 32px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 1px solid red;
+}
+#b .two .center .topp> .c1{
+    border-bottom: none;
+}
+
+#b .two .center .topp> div+div {
+    border-left: 1px solid red;
+}
+
+#b .two .center .topp .uu>p {
+    padding: 10px 5px;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    display: none;
+}
+
+#b .two .center .topp .uu .point a {
+    display: inline-block;
+    background-image: url("../img/icon_v9.png");
+    background-position: 1px -117px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#b .two .center .topp .uu>p a {
+    font-size: 16px;
+    display: inline-block;
+    color: #000;
+    padding: 10px 5px;
+    /* position: relative; */
+}
+
+#b .two .center .topp .uu>.p1 a {
+    width: 130px;
+    color: #000;
+}
+
+#b .two .center .topp .uu>p a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#b .two .center .topp .uu>p a span {
+    font-size: 13px;
+    /* position: absolute; */
+}
+
+#b .two .center .topp .uu>p.active {
+    display: inline-block;
+}
+
+
+/* 中右 */
+
+#b .three {
+    text-align: left;
+}
+
+#b .three .zy a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2px 2px;
+}
+
+#b .three .zy .hh div {
+    margin: 30px 5px;
+    padding-left: 40px;
+}
+
+#b .three .zy .hh {
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+#b .three .zy .hh h4 {
+    background-color: #F4F4F4;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    border-top: 2px solid blue;
+}
+
+#b .three .zy .hh .email {
+    margin: 20px 5px;
+    height: 25px;
+    position: relative;
+    background-color:#ddd;
+}
+
+#b .three .zy .hh .games {
+    padding-left: 39px;
+    position: relative;
+    background-color:#ddd;
+}
+
+#b .three .zy .hh .email .yx {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/icon_v9.png");
+    background-position: -3px -177px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -7%;
+    left: 5px;
+}
+
+#b .three .zy .hh .plays {
+    width: 27px;
+    height: 27px;
+    background-image: url("../img/icon_v9.png");
+    background-position: -4px -222px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 5px;
+}
+
+#b .three .zy .hh .shopping {
+    position: relative;
+    background-color:#ddd;
+}
+
+#b .three .zy .hh .gw {
+    width: 27px;
+    height: 27px;
+    background-image: url("../img/icon_v9.png");
+    background-position: 1px -263px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0%;
+    left: 5px;
+}
+
+#b .three .zy .hh .money {
+    position: relative;
+    background-color:#ddd;
+}
+
+#b .three .zy .hh .hq {
+    width: 27px;
+    height: 27px;
+    background-image: url("../img/icon_v9.png");
+    background-position: 5px -315px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 5px;
+}
+
+#b .three .zy img {
+    width: 323px;
+    margin: 15px 0;
+}
+
+#b .three .zy .gg {
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+}
+
+#b .three .zy .gg> div> span {
+    display: inline-block;
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    background-position: 0 -160px;
+    height: 25px;
+    padding-left: 26px;
+    margin-left: 38px;
+    cursor: pointer;
+}
